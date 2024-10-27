@@ -1,0 +1,17 @@
+We can access the second element `and` in the list ['fish', 'and', 'chips'] using index access syntax if we know the index of the element we wish to find:
+
+```python
+my_list = ['fish', 'and', 'chips']
+
+print(my_list[1])
+```
+
+Or if we don't know the index of the element, but we have the name of the element:
+
+```python
+my_list = ['fish', 'and', 'chips']
+
+index = my_list.index('and')
+print(my_list[index])
+```
+

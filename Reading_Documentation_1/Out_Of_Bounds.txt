@@ -1,0 +1,1 @@
+If an index is not within the range of a sequence, an IndexError will be raised.

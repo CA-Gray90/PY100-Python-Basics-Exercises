@@ -1,0 +1,1 @@
+Methods for lowercasing a string: .lowercase() and .casefold()

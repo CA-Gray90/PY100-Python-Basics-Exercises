@@ -1,0 +1,3 @@
+The .rjust() method can be used to return a string right justified of a specified width. The width is the first argument in .rjust(), the second argument is the padding, the default of which is a space.
+Explanation found at: https://docs.python.org/3/library/stdtypes.html#str.rjust
+

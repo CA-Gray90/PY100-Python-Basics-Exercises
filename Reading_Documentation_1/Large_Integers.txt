@@ -1,0 +1,11 @@
+Within Python documentation > Language Reference > Lexical Analysis > Literals > Integer Literals:
+
+There is no limit to the length of an integer, so long as it can be stored in memory. Underscores are ignored by python for determining the value of an integer.
+They can be used to enhance readability of large integers. 
+
+e.g.
+
+10_000_000
+100_000_000_000
+
+No specific grouping convention is outlined in the documentation, but it seems groups of 3 are the conventional amount
