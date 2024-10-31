@@ -1,0 +1,14 @@
+tweet = 'Woohoo! :-)'
+
+if len(tweet) > 140:
+    print('Tweet is too long!')
+
+length_of_tweet = len(tweet + 5)
+
+In the last line of this code:
+`length_of_tweet = len(tweet + 5)`
+
+Python is attempting to concatenate the value of `tweet` to the integer `5`. Since they are different class types, this operation cannot be done and Python raises an error.
+If this line was to be refactored; 
+`length_of_tweet = len(tweet) + 5` 
+Since len() returns an integer value, the `+` (addition) operation can be evaluated by python between `len(tweet)` and `5`  
